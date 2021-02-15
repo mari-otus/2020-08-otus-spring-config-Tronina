@@ -1,5 +1,4 @@
 spring:
-
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/booking_room
@@ -89,5 +88,3 @@ hystrix:
         sleepWindowInMilliseconds: 5000
         errorThresholdPercentage: 50
       metrics.rollingStats.timeInMilliseconds: 10000
-
-

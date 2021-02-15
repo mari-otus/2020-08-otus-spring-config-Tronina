@@ -38,9 +38,9 @@ spring:
 integration:
   service:
     users:
-      url: http://localhost:9003/booking_users
+      url: http://localhost:9003
     notification:
-      url: http://localhost:9002/booking_notification
+      url: http://localhost:9002
   auth:
     username: ${notification.username}
     password: ${notification.password}

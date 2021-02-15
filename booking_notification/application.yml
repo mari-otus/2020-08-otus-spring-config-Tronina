@@ -17,7 +17,7 @@ spring:
 
 integration:
   users:
-    url: http://localhost:9003/booking_users
+    url: http://localhost:9003
 
 app:
   email:

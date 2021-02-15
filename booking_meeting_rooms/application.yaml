@@ -1,7 +1,3 @@
-server:
-  servlet:
-    context-path: /booking_meeting_rooms
-
 spring:
 
   datasource:

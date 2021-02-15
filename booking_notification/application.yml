@@ -1,9 +1,4 @@
-server:
-  servlet:
-    context-path: /booking_notification
-
 spring:
-
   mail:
     host: smtp.mail.ru
     port: 465

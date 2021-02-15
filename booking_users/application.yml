@@ -1,9 +1,4 @@
-server:
-  servlet:
-    context-path: /booking_users
-
 spring:
-
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://localhost:5432/booking_users

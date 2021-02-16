@@ -45,9 +45,9 @@ app:
     enabled: true
     listener: hibernate #spring, hibernate
   notify:
-    enabled: true
+    enabled: false
   schedule:
-    enabled: true
+    enabled: false
     complete-bookings-cron-expression: "0 0/1 * * * *"  #Every minute
     notify-bookings-cron-expression: "0 0/1 * * * *"    #Every minute
 

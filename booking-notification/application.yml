@@ -15,9 +15,14 @@ spring:
     serialization:
       write_dates_as_timestamps: false
 
-integration:
-  users:
-    url: http://localhost:9003
+feign:
+  hystrix:
+    enabled: true
+  client:
+    config:
+      booking-users:
+        connectTimeout: 10000
+        readTimeout: 20000
 
 app:
   email:

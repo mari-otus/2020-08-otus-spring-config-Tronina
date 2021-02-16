@@ -36,11 +36,6 @@ spring:
       write_dates_as_timestamps: false
 
 integration:
-  service:
-    users:
-      url: http://localhost:9003
-    notification:
-      url: http://localhost:9002
   auth:
     username: ${notification.username}
     password: ${notification.password}
@@ -66,10 +61,10 @@ feign:
     enabled: true
   client:
     config:
-      users:
+      booking-users:
         connectTimeout: 10000
         readTimeout: 20000
-      notification:
+      booking-notification:
         connectTimeout: 10000
         readTimeout: 20000
 

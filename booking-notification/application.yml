@@ -15,15 +15,6 @@ spring:
     serialization:
       write_dates_as_timestamps: false
 
-feign:
-  hystrix:
-    enabled: true
-  client:
-    config:
-      booking-users:
-        connectTimeout: 10000
-        readTimeout: 20000
-
 app:
   email:
     admin-email: ${admin.email}

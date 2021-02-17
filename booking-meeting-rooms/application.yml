@@ -35,11 +35,6 @@ spring:
     serialization:
       write_dates_as_timestamps: false
 
-integration:
-  auth:
-    username: ${notification.username}
-    password: ${notification.password}
-
 app:
   audit:
     enabled: true
